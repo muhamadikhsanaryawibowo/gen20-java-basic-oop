@@ -1,10 +1,8 @@
 public class Minuman extends Produk {
     private String tipe = "Minuman";
-
     public String getTipe() {
         return tipe;
     }
-
     Minuman(String nama, int harga, String tipe){
         super(nama, harga, tipe);
     }
