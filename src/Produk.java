@@ -1,7 +1,7 @@
 public class Produk {
     private String nama;
-    int harga;
-    String tipe;
+    protected int harga;
+    protected String tipe;
 
     Produk(String nama, int harga, String tipe){
         setNama(nama);
