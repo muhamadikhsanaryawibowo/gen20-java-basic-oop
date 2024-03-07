@@ -1,5 +1,5 @@
 public class Obat extends Produk {
-    String tipe = "Obat";
+    private String tipe = "Obat";
 
     public String getTipe() {
         return tipe;

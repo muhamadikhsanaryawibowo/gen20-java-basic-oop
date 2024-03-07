@@ -1,5 +1,5 @@
 public class Produk {
-    String nama;
+    private String nama;
     int harga;
     String tipe;
 
@@ -9,21 +9,12 @@ public class Produk {
         this.tipe = tipe;
     }
 
-    public String getNama() {
-        return nama;
-    }
+    public String getNama() {return nama;}
 
-    public int getHarga() {
-        return harga;
-    }
+    public int getHarga() {return harga;}
 
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
-    public void setHarga(int harga) {
-
-        this.harga = harga;
-    }
+    public void setNama(String nama) {this.nama = nama;}
+    public void setHarga(int harga) {this.harga = harga;}
 
     public void display(){
         System.out.println("Nama Produk\t\t: " + getNama());

@@ -1,5 +1,5 @@
 public class Makanan extends Produk {
-    String tipe = "Makanan";
+    private String tipe = "Makanan";
 
     Makanan(String nama, int harga, String tipe){
         super(nama, harga, tipe);

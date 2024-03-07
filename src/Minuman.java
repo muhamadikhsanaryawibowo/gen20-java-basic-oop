@@ -1,5 +1,5 @@
 public class Minuman extends Produk {
-    String tipe = "Minuman";
+    private String tipe = "Minuman";
 
     public String getTipe() {
         return tipe;
