@@ -11,7 +11,6 @@ public class Main {
         kumpulanProduk[1] = makanan1;
         kumpulanProduk[2] = obat1;
 
-
         System.out.println("\nInformasi produk");
         for(Produk dispProduk: kumpulanProduk){
             dispProduk.display();

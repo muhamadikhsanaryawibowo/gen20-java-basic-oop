@@ -10,12 +10,9 @@ public class Produk {
     }
 
     public String getNama() {return nama;}
-
     public int getHarga() {return harga;}
-
     public void setNama(String nama) {this.nama = nama;}
     public void setHarga(int harga) {this.harga = harga;}
-
     public void display(){
         System.out.println("Nama Produk\t\t: " + getNama());
     }
